@@ -1,0 +1,64 @@
+@import'variables';
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    padding: 16px 32px;
+    color: $white;
+    font-size: $fontSM;
+    font-weight: $fontBold;
+    border-radius: 5px;
+    border: 1px solid $white;
+    background: $primary-color;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background: $secondary-color;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+    }
+}
+
+.see-more {
+    text-align: center;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: #A0522D;
+    font-family: 'Readex Pro';
+}
+
+.action-button {
+    height: 56px;
+    width: fit-content;
+    padding: 16px 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #A0522D;
+    background: none;
+}
+
+.coming-soon {
+    height: 56px;
+    width: fit-content;
+    padding: 16px 32px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #7a7a7a;
+    font-weight: 400;
+    border: none;
+    letter-spacing: 0.8pt;
+    background: #f9f9f9;
+}
+
+.view-all {
+    background: none;
+    border: none;
+    text-decoration: underline;
+}

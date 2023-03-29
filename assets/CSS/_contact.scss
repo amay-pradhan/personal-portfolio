@@ -1,0 +1,116 @@
+@import'variables';
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: $white;
+    z-index: 1;
+    border-bottom: 1px solid #e8e8e8;
+    .inner-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1280px;
+        background: $white;
+        .links {
+            display: flex;
+            gap: 40px;
+            a {
+                font-weight: $fontBase;
+                text-decoration: none;
+                color: $black;
+                font-family: 'Readex Pro';
+            }
+        }
+    }
+}
+
+.bottom-section {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.container-getInTouch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 463px;
+    .contents-getInTouch {
+        width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 30px;
+        gap: 20px;
+        .details-getInTouch {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 413px;
+            gap: 20px;
+            h1 {
+                font-size: 32px;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            p {
+                width: 353px;
+                height: 120px;
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #7A7A7A;
+            }
+        }
+        .fields-getInTouch {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 40px;
+            form {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+                .field-name,
+                .field-email,
+                .field-message {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 5px;
+                    input {
+                        width: 100%;
+                        height: 38px;
+                        border-radius: 5px;
+                        border: 1px solid #E1E1E1;
+                        padding-left: 12px;
+                    }
+                    textarea {
+                        width: 630px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 5px;
+                        border: 1px solid #E1E1E1;
+                        padding: 12px 0 0 12px;
+                    }
+                }
+            }
+        }
+    }
+}
